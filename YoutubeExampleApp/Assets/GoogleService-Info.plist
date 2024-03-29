@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>790239959213-0dogaclb0l00ucoi94k2oi6unk78escm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.790239959213-0dogaclb0l00ucoi94k2oi6unk78escm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCJc4oa3eoDSInYDdVDkTfKwChscOk6OAo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>790239959213</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.karinhudba.Reference-Music-App</string>
+	<key>PROJECT_ID</key>
+	<string>referenceapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>referenceapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:790239959213:ios:8c170f624b8d7481e70e24</string>
+	<key>DATABASE_URL</key>
+	<string>https://referenceapp-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

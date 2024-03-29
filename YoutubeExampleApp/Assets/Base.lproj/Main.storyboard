@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loading View Controller-->
+        <scene sceneID="sUc-9N-Psz">
+            <objects>
+                <viewController storyboardIdentifier="Loading" wantsFullScreenLayout="YES" id="7xV-Ca-SDU" customClass="LoadingViewController" customModule="YoutubeExampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QyC-Mk-IvQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Ks-et-VYh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="scP-bI-j8G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IVc-cx-WSd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="g14-az-Vdf">
+                                <rect key="frame" x="169" y="528" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Ks-et-VYh" firstAttribute="top" secondItem="g14-az-Vdf" secondAttribute="bottom" constant="213" id="0MX-Ln-zli"/>
+                            <constraint firstItem="IVc-cx-WSd" firstAttribute="centerX" secondItem="scP-bI-j8G" secondAttribute="centerX" id="DUc-F8-KET"/>
+                            <constraint firstItem="IVc-cx-WSd" firstAttribute="centerY" secondItem="scP-bI-j8G" secondAttribute="centerY" id="Ipr-1x-hws"/>
+                            <constraint firstItem="IVc-cx-WSd" firstAttribute="centerX" secondItem="g14-az-Vdf" secondAttribute="centerX" id="Jb8-m1-LEu"/>
+                            <constraint firstItem="IVc-cx-WSd" firstAttribute="top" secondItem="scP-bI-j8G" secondAttribute="top" id="RBE-pg-0H8"/>
+                            <constraint firstItem="IVc-cx-WSd" firstAttribute="leading" secondItem="scP-bI-j8G" secondAttribute="leading" id="d1c-Qb-L3Y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="klj-yv-uho" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-127" y="-698"/>
+        </scene>
+    </scenes>
+</document>
