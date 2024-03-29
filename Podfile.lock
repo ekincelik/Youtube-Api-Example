@@ -1,6 +1,5 @@
 PODS:
   - EasyPeasy (1.8.0)
-  - EmitterKit (5.2.2)
   - Kingfisher (5.13.3):
     - Kingfisher/Core (= 5.13.3)
   - Kingfisher/Core (5.13.3)
@@ -14,7 +13,6 @@ PODS:
 
 DEPENDENCIES:
   - EasyPeasy (= 1.8.0)
-  - EmitterKit
   - Kingfisher (= 5.13.3)
   - R.swift
   - RealmSwift
@@ -23,7 +21,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - EasyPeasy
-    - EmitterKit
     - Kingfisher
     - R.swift
     - Realm
@@ -32,13 +29,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   EasyPeasy: bfffe5d47bbaaef3e32888c250a196768484b43a
-  EmitterKit: e7a27b37118823d8ad413b8396f75e40d59f8cba
   Kingfisher: d2b3d6a7200c93b34de9afcdf25c8dd9282ec277
   R.swift: 681bb9135f482e7a81d9d27445b837fef5467e11
   Realm: 3fd136cb4c83a927482a7f1612496d37beed3cf5
   RealmSwift: 513d4dcbf5bfc4d573454088b592685fc48dd716
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
 
-PODFILE CHECKSUM: 8d1daf8565b252a737d9fe6cead08c8b5b01aedb
+PODFILE CHECKSUM: 0bb4b1258517b059800ac3129342349e41a73ac9
 
 COCOAPODS: 1.13.0

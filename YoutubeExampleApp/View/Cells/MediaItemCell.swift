@@ -7,7 +7,6 @@
 //
 
 import EasyPeasy
-import EmitterKit
 import Foundation
 import Kingfisher
 import UIKit

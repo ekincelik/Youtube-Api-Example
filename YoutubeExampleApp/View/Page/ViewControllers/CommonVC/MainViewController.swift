@@ -6,8 +6,6 @@
 //  Copyright © 2020 Ekin Celik. All rights reserved.
 //
 
-import EasyPeasy
-import EmitterKit
 import Foundation
 import UIKit
 

@@ -40,6 +40,7 @@
 		06E29EAA2AF57C5E00D74390 /* PlaylistTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E29EA62AF57C5E00D74390 /* PlaylistTableCell.swift */; };
 		06E29EAB2AF57C5E00D74390 /* SearchSuggestionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E29EA72AF57C5E00D74390 /* SearchSuggestionTableCell.swift */; };
 		06E29EAC2AF57C5E00D74390 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E29EA82AF57C5E00D74390 /* ReusableCell.swift */; };
+		06F6465F2BB7615300DBBBFB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 06F6465E2BB7615300DBBBFB /* README.md */; };
 		4311F88A2512AE7E00ACD7D2 /* UISearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311F8892512AE7E00ACD7D2 /* UISearchBarExtension.swift */; };
 		431985BE2517E1610009F484 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431985BD2517E1610009F484 /* AlertExtension.swift */; };
 		432433DB251EAE4E00BBDBBE /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432433DA251EAE4E00BBDBBE /* PlaylistViewController.swift */; };
@@ -105,6 +106,7 @@
 		06E29EA62AF57C5E00D74390 /* PlaylistTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableCell.swift; sourceTree = "<group>"; };
 		06E29EA72AF57C5E00D74390 /* SearchSuggestionTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSuggestionTableCell.swift; sourceTree = "<group>"; };
 		06E29EA82AF57C5E00D74390 /* ReusableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		06F6465E2BB7615300DBBBFB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1F58489E7EEBD77C8BDFA971 /* Pods-Reference Music AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reference Music AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reference Music AppUITests/Pods-Reference Music AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4311F8892512AE7E00ACD7D2 /* UISearchBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchBarExtension.swift; sourceTree = "<group>"; };
 		431985BD2517E1610009F484 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		06695B2724754A1500B3A063 = {
 			isa = PBXGroup;
 			children = (
+				06F6465E2BB7615300DBBBFB /* README.md */,
 				06753AA72AB10E9800B1BAC6 /* R.generated.swift */,
 				06695B3224754A1500B3A063 /* YoutubeExampleApp */,
 				06695B3124754A1500B3A063 /* Products */,
@@ -502,6 +505,7 @@
 			files = (
 				066F073E2475B8A8005038DE /* Main.storyboard in Resources */,
 				066F073C2475B8A8005038DE /* Assets.xcassets in Resources */,
+				06F6465F2BB7615300DBBBFB /* README.md in Resources */,
 				06274F7526D2D70000F05E0A /* GoogleService-Info.plist in Resources */,
 				066F073D2475B8A8005038DE /* LaunchScreen.storyboard in Resources */,
 			);

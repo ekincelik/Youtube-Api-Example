@@ -8,7 +8,6 @@ use_frameworks!
 target 'YoutubeExampleApp' do
   pod 'Kingfisher', '5.13.3'
   pod 'EasyPeasy', '1.8.0'
-  pod 'EmitterKit'
   pod 'R.swift'
   pod 'RealmSwift'
   pod 'Then'
