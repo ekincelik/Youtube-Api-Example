@@ -25,7 +25,7 @@ open class YoutubeApiManager {
     public static let shared = YoutubeApiManager()
     let kApiClient = "https://www.googleapis.com/youtube/v3/"
     let skippedVideos = ["Deleted video", "Private video"]
-    var apiKeyString: String = "AIzaSyAkYSanhlbvaZg4S6v0tYMNXOa6xAutgWM"
+    var apiKeyString: String = "<Your api key goes here>"
 
     private func setupRequestUrl(path: String, parametersDict: [String: String]) -> String {
         var string = "\(kApiClient)\(path)"

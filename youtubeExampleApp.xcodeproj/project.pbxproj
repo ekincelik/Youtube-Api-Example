@@ -396,7 +396,7 @@
 			buildConfigurationList = 06695B5F24754A1800B3A063 /* Build configuration list for PBXNativeTarget "YoutubeExampleApp" */;
 			buildPhases = (
 				9B9D8307D5FEDAB991284CDE /* [CP] Check Pods Manifest.lock */,
-				06753AA62AB10C4E00B1BAC6 /* ShellScript */,
+				06753AA62AB10C4E00B1BAC6 /* Run Script */,
 				06695B2C24754A1500B3A063 /* Sources */,
 				06695B2D24754A1500B3A063 /* Frameworks */,
 				06695B2E24754A1500B3A063 /* Resources */,
@@ -532,7 +532,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/scripts/swift-format.sh\"\n";
 		};
-		06753AA62AB10C4E00B1BAC6 /* ShellScript */ = {
+		06753AA62AB10C4E00B1BAC6 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -542,6 +542,7 @@
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
